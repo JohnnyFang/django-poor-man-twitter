@@ -1,0 +1,4 @@
+django==3.*
+djangorestframework==3.11.*
+pytest==5.3.*
+pytest-django==3.5.*
