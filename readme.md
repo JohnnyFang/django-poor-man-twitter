@@ -19,22 +19,22 @@ No login is required in order to tweet.
 * SQLite (Django default settings)
 
 #### Run
- # Create a virtual environment to isolate our package dependencies locally   
+\# Create a virtual environment to isolate our package dependencies locally   
 `python3 -m venv env`   
 `source env/bin/activate`  # On Windows use   `env\Scripts\activate`   
 
- # install dependencies   
+ \# install dependencies   
 `pip install -r requirements`
 
- # run migrations   
+ \# run migrations   
 `python manage.py migrate`  
 
- # run dev server   
+ \# run dev server   
 `python manage.py runserver 8000`
 
 #### Tests
- # run all tests   
+ \# run all tests   
 `pytest ` 
 
- # launching pytest for specific test(s)   
+ \# launching pytest for specific test(s)   
 `pytest twitter_app/tests/test_models.py`
